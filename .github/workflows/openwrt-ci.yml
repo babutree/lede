@@ -1,8 +1,8 @@
 #
 # This is free software, lisence use MIT.
+# Copyright (C) 2019 KFERMercer <KFER.Mercer@gmail.com>
 # 
 # Copyright (C) 2019 P3TERX <https://p3terx.com>
-# Copyright (C) 2019 KFERMercer <KFER.Mercer@gmail.com>
 # 
 # <https://github.com/KFERMercer/OpenWrt-CI>
 # 
@@ -80,7 +80,7 @@ jobs:
           # 
           # 无论你想要对固件进行怎样的定制, 都需要且只需要修改 EOF 回环内的内容.
           # 
-          # 编译x64固件:
+          # 编译Phicomm N1固件:
           # cat >> .config <<EOF
           # CONFIG_TARGET_QEMU_ARM_Virtual_Machine=y
           # CONFIG_TARGET_ARMv8_multiplatform=y
